@@ -24,9 +24,13 @@
 }
 body {
   background-image: url("background.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
+
 img {
-  border: 3px solid gold;
+  border: 8px solid gold;
 }
 font {
   font-family: fantasy;
@@ -93,5 +97,5 @@ a {
     text-decoration: none !important;
 }
 href {
-  
+
 }
