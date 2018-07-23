@@ -1,0 +1,97 @@
+.btn {
+    background-color: Gold;
+    border: none;
+    color: white;
+    padding: 16px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.diff {
+    background-color: gold;
+    width:100%;
+    border: none;
+    color: white;
+    padding: 16px 20px;
+    font-size: 80px;
+    cursor: pointer;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: Orange;
+}
+.diff:hover {
+  background-color: orange;
+}
+body {
+  background-image: url("background.jpg");
+}
+img {
+  border: 3px solid gold;
+}
+font {
+  font-family: fantasy;
+}
+
+h1{
+  color: yellow;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  font-size: 90px;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: thick;
+}
+
+h2{
+  color: yellow;
+}
+
+
+h3{
+  color:yellow;
+}
+head {
+  /*style buttons*/
+  .btn{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  /*Darker background on mouse-over*/
+  .btn:hover{
+    background-color: yellow;
+  }
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float:right;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+
+}
+a {
+    text-decoration: none !important;
+}
+href {
+  
+}
